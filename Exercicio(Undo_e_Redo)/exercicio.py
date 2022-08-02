@@ -51,7 +51,7 @@ if __name__ == '__main__':
     redo_list = []
 
     while True:
-        todo = input('Digite o número de uma opção: \n1.Adicionar tarefas 2.Listar tarefar 3.Desfazer 4.Refazer 5.Sair\n')
+        todo = input('Digite o número da opção:\n1.Adicionar tarefas 2.Listar tarefar 3.Desfazer 4.Refazer 5.Sair\n')
 
         if todo == '1':
             do_add(todo_list)
