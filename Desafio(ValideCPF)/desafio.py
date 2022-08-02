@@ -39,7 +39,7 @@ while True:
             total = 0
             novo_cpf += str(d)
 
-if cpf == novo_cpf:
-    print('Válido.')
-else:
-    print('Inválido')
+            if cpf == novo_cpf:
+                print('Válido.')
+            else:
+                print('Inválido')
